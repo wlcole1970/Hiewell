@@ -1,0 +1,161 @@
+/* new css */
+
+
+@media screen and (max-width: 500px) {
+
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-top,
+    .container-middle,
+    .bottom-container {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .hie-bar {
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        position: sticky;
+        margin: auto;
+    }
+
+    #hiewell-round {
+        height: 120px;
+        width: 120px;
+        margin: 5% 41.25% 5% 35%;
+        text-align: center;
+        background-color: #f8e7e8;
+    }
+
+    .container-top h4 {
+        display: none;
+    }
+
+    #hiewell-text {
+        color: #000000;
+        font-size: 11vh;
+        margin-bottom: 8px;
+    }
+
+    #develop {
+        color: #ffe11a;
+        font-size: 4vh;
+        display: inline-block;
+    }
+
+    #email {
+        color: #d7d7d7;
+        font-size: 1.0em;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .square-container {
+        width: 100%;
+        margin: 10px auto;
+
+    }
+
+    .square {
+
+        height: 350px;
+        width: 350px;
+        margin: 10px auto 10px 75px;
+        background-color: #ffe11a;
+        transform: rotate(-10deg);
+        position: relative;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .square h1 {
+        font-size: 2.3em;
+        margin: 8px 0 0 0;
+        float: left;
+    }
+
+    #square-shadow {
+        border: 0px solid;
+        box-shadow: -20px 20px #f9f8f9;
+    }
+
+    .square-text {
+        font-size: 3.5vmin;
+        padding-left: 20px;
+    }
+
+    .social-media {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 0;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .social-media img {
+        width: 35px;
+        height: 35px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 501px) {
+    .container-top {
+        margin-top: 100;
+        margin-right: 0;
+    }
+
+    .container-top h4 {
+        font-size: 4.3vh;
+        text-align: center;
+    }
+
+    .container-middle {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: columnm;
+    }
+
+    #develop {
+        font-size: 4vh;
+        display: inline-block;
+    }
+
+    #hiewell-text {
+        font-size: 12.5vh;
+    }
+
+    #email {
+        font-size: 1.0em;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        margin: auto;
+    }
+
+    .square {
+        height: 500px;
+        width: 500px;
+    }
+
+    .square-text {
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+
+    .social-media img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}

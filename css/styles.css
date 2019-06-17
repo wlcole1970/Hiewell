@@ -1,0 +1,222 @@
+body {
+  background-color: #fff;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  padding: 0;
+  font-family: "canada-type-gibson", "chantal", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  /* font-weight: 60 */
+
+
+  /* main container */
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  position: relative;
+}
+
+/* transparent navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  margin-top: -90px;
+  z-index: 10;
+}
+
+#hiewell-round {
+  height: 170px;
+  width: 170px;
+
+  background-color: #F8E7E8;
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  position: relative;
+  font-size: 50px;
+  /* makes circle responsive  */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  /* ---- */
+
+}
+
+.content {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  padding: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+/* begin containers info*/
+.container-top,
+.container-middle,
+.bottom-container {
+  width: 90%;
+}
+
+.container-top {
+  width: 100%;
+  text-align: right;
+  color: #D7D7D7;
+  margin-top: 100px;
+
+}
+
+/* container-top text */
+.container-top h4 {
+  margin-right: 30px;
+  font-size: 36px;
+}
+
+/* middle container */
+.container-middle {
+  height: 80%;
+  width: 100%;
+  margin-top: 20px;
+  /* padding: 10px; */
+  /* align-items: right; */
+}
+
+/* text in middle container */
+#develop {
+  color: #FFE11A;
+  font-size: 38px;
+}
+
+#hiewell-text {
+  color: #000000;
+  font-size: 85px;
+}
+
+#design {
+  text-align: right;
+  width: 90%;
+  float: right;
+  margin-right: 30px
+}
+
+#email {
+  color: #D7D7D7;
+  font-size: 48px;
+  text-align: right;
+  float: right;
+  margin-right: 30px;
+  /* position: absolute; */
+}
+
+/* square container */
+
+.square-container {
+  height: 80%;
+  width: 100%;
+  margin-top: 480px;
+}
+
+.square h1 {
+  color: #fff;
+  align: left;
+  padding-left: 10%;
+  font-size: 4.3em;
+  /* font-size: px; */
+}
+
+.square-text {
+  font-family: "chantal";
+  font-style: italic;
+  font-size: 1.3em;
+  padding-left: 20%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  color: #231F20;
+
+}
+
+.square {
+  height: 620px;
+  width: 620px;
+  margin-top: 400px;
+  /* margin: 10% auto 5%; */
+  margin: auto;
+  background-color: #FFE11A;
+  transform: rotate(-10deg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#square-shadow {
+  border: 0px solid;
+  box-shadow: -50px 50px #f9f8f9;
+
+}
+
+
+/* footer */
+
+footer {
+
+  margin-top: 20%;
+  margin-bottom: 10%
+}
+
+.social-media {
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: right;
+
+}
+
+
+/* footer */
+.bottom-container {
+  color: #D7D7D7;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+/* @media screen and (max-width: 500px) {
+
+  .square {
+
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+  }
+
+  .square-text {
+
+    font-size: 1em;
+    padding-left: 5%;
+
+  }
+}
+
+.main-container {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: -90px;
+  z-index: 10;
+}
+
+.hi */

@@ -1,0 +1,45 @@
+body {
+
+  background-color: #fff;
+
+
+}
+
+/* transparent navbar */
+
+#hiewell-round {
+  height: 170px;
+  width: 170px;
+  background-color: #F8E7E8;
+  border-radius: 50%;
+  float:left;
+  margin: 100px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.bottom-container {
+  color: #D7D7D7;
+  text-align: center;
+}
